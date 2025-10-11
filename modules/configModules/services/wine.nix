@@ -1,7 +1,7 @@
 { config, lib, pkgs, ... }: {
 
    environment.systemPackages = with pkgs; [
-        wineWowPackages.stable
+    wineWowPackages.stable
 	wine
 	(wine.override { wineBuild = "wine64"; })
 	wine64

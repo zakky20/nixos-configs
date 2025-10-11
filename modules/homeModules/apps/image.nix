@@ -6,7 +6,6 @@
       scrot
       nitrogen
       gimp
-      inkscape
       upscayl
    ];
 }

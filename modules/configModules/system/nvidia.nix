@@ -1,19 +1,15 @@
 { config, lib, pkgs, ... }:
 
 {
-  hardware = {
-    graphics = {
-      enable = true;
-      enable32Bit = true;
-    };
+  hardware.nvidia = {
+    package = config.boot.kernelPackages.nvidiaPackages.latest;
 
-    nvidia = {
-      package = config.boot.kernelPackages.nvidiaPackages.latest;
-      modesetting.enable = true;
-      nvidiaSettings = true;
-      open = false; 
-    };
+    open = true;
+    modesetting.enable = true;
+    nvidiaSettings = true;
   };
 
   services.xserver.videoDrivers = [ "nvidia" ];
+  hardware.graphics.enable = true;
+  hardware.graphics.enable32Bit = true;
 }

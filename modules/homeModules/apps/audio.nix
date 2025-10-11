@@ -11,10 +11,5 @@
       ani-cli
       alsa-utils
       pavucontrol
-      easyeffects
-      audacity
-      handbrake
-      # obs-studio
    ];
-
 }

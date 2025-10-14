@@ -9,7 +9,6 @@
   nixpkgs.config = {
     channel = "nixos-unstable";
     allowUnfree = true;
-    allowUnfreePredicate = _: true;
     cudaSupport = true;
   };
 

@@ -46,7 +46,7 @@
 		  imports = [
 		     ./home.nix
 		     spicetify-nix.homeManagerModules.default
-		  ];
+		  		   ];
                };
             }
         ];

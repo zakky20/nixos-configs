@@ -1,0 +1,71 @@
+return {}
+-- return {
+--   "neovim/nvim-lspconfig",
+--   config = function()
+--     local capabilities = vim.tbl_deep_extend(
+--       "force",
+--       vim.lsp.protocol.make_client_capabilities(),
+--       require("cmp_nvim_lsp").default_capabilities()
+--     )
+--
+--     vim.env.PATH = table.concat({
+--       "/run/current-system/sw/bin",
+--       "/etc/profiles/per-user/" .. vim.env.USER .. "/bin",
+--       vim.env.PATH,
+--     }, ":")
+--
+--     local cfg = vim.lsp.config
+--
+--     vim.lsp.start(cfg.lua_ls({
+--       cmd = { "lua-language-server" },
+--       capabilities = capabilities,
+--       root_dir = vim.fs.root(0, { ".git", ".luarc.json", ".luarc.jsonc" }),
+--       settings = {
+--         Lua = {
+--           runtime = { version = "LuaJIT" },
+--           diagnostics = { globals = { "vim" } },
+--           workspace = { checkThirdParty = false },
+--         },
+--       },
+--     }))
+--
+--     vim.lsp.start(cfg.ts_ls({
+--       cmd = { "typescript-language-server", "--stdio" },
+--       capabilities = capabilities,
+--       root_dir = vim.fs.root(0, { "package.json", "tsconfig.json", ".git" }),
+--     }))
+--
+--     vim.lsp.start(cfg.cssls({
+--       cmd = { "vscode-css-language-server", "--stdio" },
+--       capabilities = capabilities,
+--     }))
+--
+--     vim.lsp.start(cfg.html({
+--       cmd = { "vscode-html-language-server", "--stdio" },
+--       capabilities = capabilities,
+--     }))
+--
+--     vim.lsp.start(cfg.jsonls({
+--       cmd = { "vscode-json-language-server", "--stdio" },
+--       capabilities = capabilities,
+--     }))
+--
+--     vim.lsp.start(cfg.pylsp({
+--       cmd = { "pylsp" },
+--       capabilities = capabilities,
+--       settings = {
+--         pylsp = {
+--           plugins = {
+--             pyflakes = { enabled = false },
+--             pycodestyle = { enabled = false },
+--           },
+--         },
+--       },
+--     }))
+--
+--     vim.lsp.start(cfg.ruff({
+--       cmd = { "ruff-lsp" },
+--       capabilities = capabilities,
+--     }))
+--   end,
+-- }

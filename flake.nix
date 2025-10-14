@@ -43,10 +43,12 @@
 		home-manager.backupFileExtension = "backup";
         home-manager.extraSpecialArgs = { inherit spicetify-nix; };
 		home-manager.users.zakky = {
-		  imports = [
+		  
+         imports = [
 		     ./home.nix
 		     spicetify-nix.homeManagerModules.default
-		  		   ];
+		 ];
+
                };
             }
         ];

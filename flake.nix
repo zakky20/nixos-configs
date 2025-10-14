@@ -3,16 +3,16 @@
 
 	inputs = {
 
-            nixpkgs = {
+        nixpkgs = {
 	      url = "github:nixos/nixpkgs/nixos-unstable";
 	    };
 
-            chaotic = {
+        chaotic = {
 	      url = "github:chaotic-cx/nyx/nyxpkgs-unstable";
 	      inputs.nixpkgs.follows = "nixpkgs";
 	    };
 
-            nur = {
+        nur = {
 	      url = "github:nix-community/NUR";
 	      inputs.nixpkgs.follows = "nixpkgs";
 	    };

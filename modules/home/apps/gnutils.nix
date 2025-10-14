@@ -22,7 +22,6 @@
       jq
       fd
       pv
-      tldr
       libnotify
       lm_sensors
       man-pages

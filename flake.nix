@@ -41,7 +41,7 @@
 		home-manager.useGlobalPkgs = true;
 		home-manager.useUserPackages = true;
 		home-manager.backupFileExtension = "backup";
-                home-manager.extraSpecialArgs = { inherit spicetify-nix; };
+        home-manager.extraSpecialArgs = { inherit spicetify-nix; };
 		home-manager.users.zakky = {
 		  imports = [
 		     ./home.nix

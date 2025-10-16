@@ -23,6 +23,13 @@ To get started with this setup, follow these steps:
     git clone https://github.com/zakky20/nixos-configs
     cd nixos-configs
     ```
+	
+4. **Put your `hardware-configuration.nix` file there**:
+
+    ```bash
+    cp /etc/nixos/hardware-configuration.nix ./
+    ```
+	
 3. **Rebuild**:
 
 	```bash

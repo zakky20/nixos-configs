@@ -10,7 +10,7 @@ Welcome to my NixOS configuration built for efficiency and aesthetics.
 - 🎨 **Nord Theme**: A perfect blend of frosted colors
 - 🪟 **Qtile**: 10/10 Window manager for X11
 - 🏠 **Home Manager**: lots of stuff configured in the nix way.
-- 🌟 **Zsh + starship**: Efficient shell setup with lots of aliases.
+- 🌟 **Zsh + starship**: Efficient shell setup with lots of aliases and tweaks.
 
 ## 🚀 Installation
 

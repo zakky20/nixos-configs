@@ -23,3 +23,8 @@ To get started with this setup, follow these steps:
     git clone https://github.com/zakky20/nixos-configs
     cd nixos-configs
     ```
+3. **Rebuild**:
+
+	```bash
+    sudo nixos-rebuild switch --flake ~/NixOS#nixos (replace #nixos with ur hostname)
+    ```

@@ -30,7 +30,7 @@ To get started with this setup, follow these steps:
     cp /etc/nixos/hardware-configuration.nix ./
     ```
 
-4. **Edit the `flake.nix` with your user,description, etc..**
+4. **Edit the `flake.nix` with your user, description, etc..**
 
 5. **Rebuild**:
 

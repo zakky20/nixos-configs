@@ -1,7 +1,6 @@
-**❄️ NixOS Config**
+# ❄️ NixOS Config
 
 <img width="1920" height="1080" alt="screenshot" src="https://github.com/user-attachments/assets/e5132b53-43dc-46c7-a7ea-ad282395af86" />
-
 
 ## ✨ Features
 

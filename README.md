@@ -1,4 +1,4 @@
-# ❄️ NixOS Config
+<h1 align="center"># ❄️ NixOS Config</h1>
 
 Welcome to my NixOS configuration built for efficiency and aesthetics.
 

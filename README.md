@@ -3,6 +3,8 @@ Welcome to my redesigned NixOS configuration built for efficiency and aesthetics
 
 <img width="1920" height="1080" alt="screenshot" src="https://github.com/user-attachments/assets/e5132b53-43dc-46c7-a7ea-ad282395af86" />
 
+You can find my configs for regular distros [here](https://github.com/zakky20/dotfiles)
+
 ## ✨ Features
 
 - 🎨 **Nord Theme**: A perfect blend of frosted colors

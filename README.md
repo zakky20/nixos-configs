@@ -24,13 +24,15 @@ To get started with this setup, follow these steps:
     cd nixos-configs
     ```
 	
-4. **Put your `hardware-configuration.nix` file there**:
+3. **Put your `hardware-configuration.nix` file there**:
 
     ```bash
     cp /etc/nixos/hardware-configuration.nix ./
     ```
-	
-3. **Rebuild**:
+
+4. **Edit the `flake.nix` with your user,description, etc..
+
+5. **Rebuild**:
 
 	```bash
     sudo nixos-rebuild switch --flake ~/NixOS#nixos (replace #nixos with ur hostname)

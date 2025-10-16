@@ -1,6 +1,7 @@
 <h1 align="center">❄️ NixOS Config</h1>
 
 <h1 align="center">Welcome to my NixOS configuration built for efficiency.
+
 ##
 
 <p align="center">

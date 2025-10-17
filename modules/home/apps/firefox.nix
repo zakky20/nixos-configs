@@ -7,11 +7,6 @@
       name = "default";
       isDefault = true;
 
-    policies = {
-      BlockAboutConfig = true;
-      DefaultDownloadDirectory = "/home/zakky/Downloads";
-    };
-
     search = {
       force = true;
       default = "ddg";

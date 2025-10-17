@@ -7,10 +7,15 @@
       name = "default";
       isDefault = true;
 
+    policies = {
+      BlockAboutConfig = true;
+      DefaultDownloadDirectory = "/home/zakky/Downloads";
+    };
+
     search = {
-        force = true;
-        default = "ddg";
-        privateDefault = "ddg";
+      force = true;
+      default = "ddg";
+      privateDefault = "ddg";
     };
 
     extensions.packages = with pkgs.nur.repos.rycee.firefox-addons;  [

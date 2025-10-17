@@ -1,18 +1,21 @@
 { config, lib, pkgs, ... }: {
 
+  # Enable NixVim
   programs.nixvim = {
     enable = true;
     defaultEditor = true;
-    viAlias = true;
     vimAlias = true;
 
+    # Globals
     globals = {
       mapleader = " ";
       maplocalleader = " ";
     };
 
+    # Colorscheme
     colorschemes.nord.enable = true;
 
+    # Treesitter
     plugins.treesitter = {
       enable = true;
       settings = {
@@ -23,6 +26,7 @@
       nixGrammars = true;
     };
 
+    # Autocompletion
     plugins.cmp = {
       enable = true;
       autoEnableSources = true;
@@ -46,6 +50,7 @@
       };
     };
 
+    # Lsp
     plugins.lsp = {
       enable = true;
       servers = {
@@ -79,6 +84,7 @@
       };
     };
 
+    # Telescope
     plugins.telescope = {
       enable = true;
       keymaps = {
@@ -94,6 +100,7 @@
       };
     };
 
+    # VimTeX
     plugins.vimtex = {
       enable = true;
       settings = {
@@ -110,6 +117,7 @@
       };
     };    
 
+    # Lualine
     plugins.lualine = {
       enable = true;
       settings = {
@@ -119,17 +127,17 @@
           theme = "nord";
           icons_enabled = true;
           component_separators = {
-            left = "";
-            right = "";
+            left = "";
+            right = "";
           };
           section_separators = {
-            left = "";
-            right = "";
+            left = "";
+            right = "";
           };
         };
         sections = {
           lualine_a = [ "mode" ];
-          lualine_b = [ "branch" "" "diff" "diagnostics" ];
+          lualine_b = [ "branch" "diff" "diagnostics" ];
           lualine_c = [ "filename" ];
           lualine_x = [ "fileformat" "filetype" ];
           lualine_y = [ "location" ];
@@ -138,6 +146,13 @@
       };
     };
 
+    # Alpha
+    plugins.alpha = {
+      enable = true;
+      theme = "startify";
+    };
+
+    # Settings    
     opts = {
       number = true;
       relativenumber = true;
@@ -172,6 +187,7 @@
       fileencoding = "utf-8";            
     };
 
+    # One line plugins
     plugins.noice.enable = true;
     plugins.none-ls.enable = true;
     plugins.comment.enable = true;
@@ -187,6 +203,7 @@
     plugins.presence.enable = true;
   };
 
+  # Dependencies
   home.packages = with pkgs; [
     nixpkgs-fmt
     ripgrep

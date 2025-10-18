@@ -41,6 +41,5 @@
 
     ./important/configs.nix
     ./important/theming.nix
-    ./important/wallpapers.nix
   ];
 }

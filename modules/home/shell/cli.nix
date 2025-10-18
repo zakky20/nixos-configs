@@ -9,6 +9,7 @@
       cowsay
       figlet
       tokei
+      ani-cli
       trash-cli
    ];
 

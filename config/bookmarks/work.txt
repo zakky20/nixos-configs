@@ -1,0 +1,12 @@
+# work
+ClaudeAI :: https://claude.ai
+ChatGPT :: https://chatgpt.com
+Deepseek :: https://deepseek.com
+Github :: https://github.com
+Gitlab :: https://gitlab.com
+NixOS Wiki :: https://nixos.wiki
+NixOS Packages :: https://search.nixos.org/packages?channel=unstable&
+MyNixOS :: https://mynixos.com/
+NerdFonts :: https://www.nerdfonts.com/
+Wikipedia :: https://wikipedia.org
+TonyBTW :: https://tonybtw.com

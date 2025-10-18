@@ -6,7 +6,7 @@
     settings = {
       global = {
         font = "Iosevka Nerd Font Bold 11";
-        offset = "8x56";
+        offset = "5x25";
         markup = "full";
         format = "%s\n%b";
         sort = false;

@@ -20,6 +20,7 @@
       size-transition = true;
       
       corner-radius = 0;
+      detect-rounded-corners = false;
       rounded-corners-exclude = [
         "class_g = 'i3-frame'"
         "class_g = 'rofi'"
@@ -27,7 +28,6 @@
         "window_type = 'dock'"
         "window_type = 'desktop'"
       ];
-      detect-rounded-corners = false;
       
       blur-method = "dual_kawase";
       blur-size = 15;

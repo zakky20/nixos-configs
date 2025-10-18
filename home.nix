@@ -10,8 +10,6 @@
       nixvim.homeModules.nixvim
     ];
 
-    xdg.configFile."qtile".force = true;
-
     xdg = {
       enable = true;
       userDirs = {

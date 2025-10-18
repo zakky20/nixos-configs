@@ -24,14 +24,14 @@
   };
 
   gtk.cursorTheme = {
-    package = pkgs.simp1e-cursors;
-    name = "Simp1e-Nord-Light";
+    package = pkgs.nordzy-cursor-theme;
+    name = "Nordzy-cursors-white";
     size = 24;
   };
 
   home.pointerCursor = {
-    package = pkgs.simp1e-cursors;
-    name = "Simp1e-Nord-Light";
+    package = pkgs.nordzy-cursor-theme;
+    name = "Nordzy-cursors-white";
     size = 24;
   };
 

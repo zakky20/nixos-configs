@@ -1,12 +1,8 @@
 { config, lib, pkgs, ... }:
 
 let
-
   configDirs = [
     "qtile"
-    "conky"
-    "rofi"
-    "nvim"
     "fastfetch"
     "bookmarks"
   ];
@@ -15,7 +11,6 @@ let
     source = config.lib.file.mkOutOfStoreSymlink "/home/zakky/NixOS/config/${name}/";
     recursive = true;
   };
-
 in
 
 {

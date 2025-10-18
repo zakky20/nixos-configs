@@ -7,10 +7,7 @@
       ffmpeg
       playerctl
       yt-dlp
-      ani-cli
       alsa-utils
       pavucontrol
-      easyeffects
-      handbrake
    ];
 }

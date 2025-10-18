@@ -31,15 +31,10 @@
       url = "github:Gerg-L/spicetify-nix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
- 
-    nord-wallpapers = {
-      url = "github:Gurjaka/Nord-Wallpapers";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
 
 };
 
-  outputs = { self, nixpkgs, home-manager, nur, chaotic, spicetify-nix, nixvim, nord-wallpapers, ... }@inputs:
+  outputs = { self, nixpkgs, home-manager, nur, chaotic, spicetify-nix, nixvim, ... }@inputs:
 
   {
       nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {

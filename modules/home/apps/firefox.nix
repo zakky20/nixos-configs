@@ -91,6 +91,11 @@
         "privacy.spoof_english" = 1;
         "privacy.firstparty.isolate" = false;
         "media.ffmpeg.vaapi.enabled" = true;
+        "font.name.serif.x-western" = "Iosevka Nerd Font Mono";
+        "font.name.sans-serif.x-western" = "Iosevka Nerd Font Mono";
+        "font.name.monospace.x-western" = "Iosevka Nerd Font Mono";
+        "font.size.variable.x-western" = 16;
+        "font.size.monospace.x-western" = 16;
       }; 
     };
   };

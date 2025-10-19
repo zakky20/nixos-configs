@@ -1,3 +1,5 @@
+{ config, lib, pkgs, ... }:
+
 {
   xdg.configFile."Vencord/settings/settings.json".text = ''
       {
@@ -568,7 +570,7 @@
                 "enabled": false
             },
             "WhoReacted": {
-                "enabled": true
+                "enabled": false
             },
             "Wikisearch": {
                 "enabled": false

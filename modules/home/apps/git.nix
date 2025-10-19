@@ -2,9 +2,9 @@
 
 programs.git = {
     enable = true;
-    userName = "zakky20";
-    userEmail = "niku.raul@gmail.com";
-    extraConfig = {
+    settings.user.name = "zakky20";
+    settings.user.email = "niku.raul@gmail.com";
+    settings = {
       credential.helper = "store";
       init.defaultBranch = "main";
       core = {

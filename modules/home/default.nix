@@ -10,7 +10,6 @@
     ./apps/fastfetch.nix
     ./apps/rofi.nix
     ./apps/firefox.nix
-    ./apps/emacs.nix
     ./apps/dunst.nix
     ./apps/gnutils.nix
     ./apps/thunar.nix

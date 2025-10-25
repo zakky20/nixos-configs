@@ -285,7 +285,7 @@ def init_widgets_list():
                  fontsize = 25,
                  ),
         widget.GenPollText(
-                 update_interval = 0,
+                 update_interval = 5,
                  func = lambda: subprocess.check_output("~/.local/bin/music", shell=True, text=True).strip(),
                  mouse_callbacks = {'Button1': lambda: qtile.cmd_spawn('spotify')},
                  foreground = colors[7],
@@ -301,7 +301,7 @@ def init_widgets_list():
                  fontsize = 50,
                  ),
         widget.GenPollText(
-                 update_interval = 0,
+                 update_interval = 60,
                  func = lambda: subprocess.check_output("~/.local/bin/up", shell=True, text=True).strip(),
                  background = colors[10],
                  foreground = colors[6],
